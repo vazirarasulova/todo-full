@@ -50,8 +50,8 @@ function renderTodos(arr, element) {
 
     newItem.setAttribute("class", "item");
     newItem.setAttribute("style", "text-align: center");
-    inputCheck.setAttribute("style", "margin-right: 30px", "margin-left: 30px");
-  
+    inputCheck.setAttribute("style", "margin: 30px");
+    newBtn.setAttribute("style", "border: 10px");
 
     newItem.textContent = todo.title;
     newBtn.textContent = "Delete";
